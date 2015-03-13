@@ -2,21 +2,26 @@
   "name": "hadean-server",
   "version": "0.0.1",
   "description": "",
-  "author": "Mats Lundström",
-  "homepage": "https://github.com/matsalundstrom/hadean-server",
-  "bugs": {
-    "url": "https://github.com/matsalundstrom/hadean-server/issues"
+  "license": "MIT",
+  "author": {
+    "name": "Mats LundstrÃ¶m",
+    "email": "mats.a.lundstrom@gmail.com",
+    "url": "https://github.com/matsalundstrom"
   },
+  "homepage": "https://github.com/matsalundstrom/hadean-server",
   "repository": {
     "type": "git",
     "url": "https://github.com/matsalundstrom/hadean-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matsalundstrom/hadean-server/issues"
   },
   "keywords": [
     "node",
     "express"
   ],
   "dependencies": {
-    "express": "4.9.x",
+    "express": "^4.12.*",
     "jade": "*"
   }
 }
