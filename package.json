@@ -1,0 +1,22 @@
+{
+  "name": "hadean-server",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Mats Lundström",
+  "homepage": "https://github.com/matsalundstrom/hadean-server",
+  "bugs": {
+    "url": "https://github.com/matsalundstrom/hadean/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matsalundstrom/hadean-server.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "dependencies": {
+    "express": "4.9.x",
+    "jade": "*"
+  }
+}
