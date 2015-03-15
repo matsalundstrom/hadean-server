@@ -1,5 +1,21 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    nav.navbar.navbar-inverse.navbar-fixed-top
+        .container
+            .navbar-header
+                button(type='button' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar').navbar-toggle.collapsed
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a(href='#').navbar-brand #{title}
+            #navbar.navbar-collapse.collapse
+
+    .jumbotron
+        .container
+            h1= title
+            p Welcome to #{title}
+
+     .container
+         footer &copy; Mats Lundström 2015
