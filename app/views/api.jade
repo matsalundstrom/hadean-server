@@ -1,0 +1,23 @@
+extends layout
+block content
+    nav.navbar.navbar-inverse.navbar-fixed-top
+        .container
+            .navbar-header
+                button(type='button' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar').navbar-toggle.collapsed
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a(href='/').navbar-brand #{title}
+            #navbar.navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    li
+                        a(href='/') Home
+                    li.active
+                        a(href='/api') API
+    .container
+        h1 API
+        p This page contains a description of the API.
+
+    .container
+        footer &copy; Mats Lundström 2015
