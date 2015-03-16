@@ -1,5 +1,4 @@
 extends layout
-
 block content
     nav.navbar.navbar-inverse.navbar-fixed-top
         .container
@@ -12,19 +11,16 @@ block content
                 a(href='/').navbar-brand #{title}
             #navbar.navbar-collapse.collapse
                 ul.nav.navbar-nav
-                    li.active
+                    li
                         a(href='/') Home
                     li
                         a(href='/api') API
                     li
                         a(href='/about') About
-                    li
+                    li.active
                         a(href='/contact') Contact
-
-    .jumbotron
-        .container.starter-template
-            h1= title
-            p Welcome to #{title}
-
+    .container
+        h1 Contact
+        p
     .container
         footer &copy; Mats Lundström 2015
