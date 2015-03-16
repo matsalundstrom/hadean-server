@@ -23,6 +23,7 @@
   "keywords": [
     "node",
     "express",
+    "bootstrap",
     "heroku"
   ],
   "engines": {
