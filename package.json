@@ -2,6 +2,7 @@
   "name": "hadean-server",
   "version": "0.0.1",
   "description": "",
+  "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
