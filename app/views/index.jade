@@ -20,11 +20,26 @@ block content
                         a(href='/about') About
                     li
                         a(href='/contact') Contact
-
     .jumbotron
         .container.starter-template
             h1= title
             p Welcome to #{title}
 
     .container
-        footer &copy; Mats Lundström 2015
+        .row
+            .col-md-4
+                h2 API
+                p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                p
+                    a(href='/api' role='button').btn.btn-default View details
+            .col-md-4
+                h2 About
+                p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                p
+                    a(href='/about' role='button').btn.btn-default View details
+            .col-md-4
+                h2 Contact
+                p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                p
+                    a(href='/contact' role='button').btn.btn-default View details
+        hr
